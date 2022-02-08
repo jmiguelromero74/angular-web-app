@@ -5,7 +5,8 @@ LABEL authors="jmiguelromero"
 WORKDIR /app
 
 COPY . /app
-
+#node
+RUN npm install
 #Angular CLI
 RUN npm install -g @angular/cli
 
